@@ -19,8 +19,8 @@ import session from "express-session";
 // import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 
 const bootstrap =(app,express)=>{
-//     app.use(express.json())
-//     app.use(cors())
+     app.use(express.json())
+     app.use(cors())
 //  app.use(
 //     session({
 //       secret: "secret",
